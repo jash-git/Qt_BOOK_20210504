@@ -1,0 +1,7 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file alias="schema_0.xsd">files/cdcatalog.xsd</file>
+    <file alias="instance_0.xml">files/cdcatalog_valid.xml</file>
+    <file alias="instance_1.xml">files/cdcatalog_invalid.xml</file>
+</qresource>
+</RCC>

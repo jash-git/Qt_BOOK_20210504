@@ -1,0 +1,220 @@
+*{font-family:Microsoft YaHei;}
+
+
+/*最小化按钮*/
+QPushButton#pButtonArrow
+{
+    border-image:url(:/Resources/LoginWindow/arrowback.png) 0 60 0 0 ;
+}
+
+QPushButton#pButtonArrow:hover
+{
+    border-image:url(:/Resources/LoginWindow/arrowback.png) 0 30 0 30 ;
+}
+
+QPushButton#pButtonArrow:pressed
+{
+    border-image:url(:/Resources/LoginWindow/arrowback.png) 0 0 0 60 ;
+}
+
+/*注册账号*/
+QPushButton#pButtonRegistAccount
+{
+	color:rgb(38 , 133 , 227);
+	background-color:transparent;
+}
+
+QPushButton#pButtonRegistAccount:hover
+{
+	color:rgb(97 , 179 , 246);
+}
+
+QPushButton#pButtonRegistAccount:pressed
+{
+	color:rgb(0 , 109 , 176);
+}
+
+/*忘记密码*/
+QPushButton#pButtonForgetPassword
+{
+	color:rgb(38 , 133 , 227);
+	background-color:transparent;
+}
+
+QPushButton#pButtonForgetPassword:hover
+{
+	color:rgb(97 , 179 , 246);
+}
+
+QPushButton#pButtonForgetPassword:pressed
+{
+	color:rgb(0 , 109 , 176);
+}
+
+
+/*下拉列表框*/
+QComboBox
+{
+	background:white;
+    padding-left:5px ;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    border: 1px solid rgb(209 , 209 , 209);
+}
+QComboBox:hover
+{
+    border: 1px solid rgb(21 , 131 , 221);
+}
+QComboBox QAbstractItemView::item
+{
+    height:40px;
+}
+QComboBox::down-arrow
+{
+    border-image:url(:/Resources/LoginWindow/drop_down_Button.png) 0 34 0 0 ;
+}
+QComboBox::down-arrow:hover
+{
+    border-image:url(:/Resources/LoginWindow/drop_down_Button.png) 0 17 0 17 ;
+}
+QComboBox::down-arrow:on
+{
+    border-image:url(:/Resources/LoginWindow/drop_down_Button.png) 0 0 0 34 ;
+}
+QComboBox::drop-down
+{
+    width:20px;
+    background:transparent; /*不加此句下拉箭头背景色为灰色与整体样式不一致，也可设置 border:0px; border-radius:0px; background:white; border-left:0px ; 即设置为无边框*/
+    padding-right:5px;
+}
+
+/*密码框*/
+QLineEdit#passwordEdit
+{
+	background:white;
+    padding-left:5px ;
+	padding-top:1px ;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+	border: 1px solid rgb(209 , 209 , 209);
+    border-top:transparent;
+}
+QLineEdit#passwordEdit:hover
+{
+	padding-top:0px ;
+    border: 1px solid rgb(21 , 131 , 221);
+}
+
+/*密码框中的小键盘按钮*/
+QPushButton#pButtonKeyboard
+{
+    border-image:url(:/Resources/LoginWindow/keyboard.png) 0 30 0 0 ;
+}
+
+QPushButton#pButtonKeyboard:hover
+{
+    border-image:url(:/Resources/LoginWindow/keyboard.png) 0 15 0 15 ;
+}
+
+QPushButton#pButtonKeyboard:pressed
+{
+    border-image:url(:/Resources/LoginWindow/keyboard.png) 0 0 0 30 ;
+}
+
+/*记住密码and自动登录*/
+QCheckBox
+{
+	color:rgb(101 , 101 , 101);
+}
+
+QCheckBox::indicator:unchecked
+{
+    border-image:url(:/Resources/LoginWindow/checkbox.png) 0 39 0 0;
+}
+QCheckBox::indicator:hover
+{
+    border-image:url(:/Resources/LoginWindow/checkbox.png) 0 26 0 13;
+}
+QCheckBox::indicator:pressed
+{
+    border-image:url(:/Resources/LoginWindow/checkbox.png) 0 13 0 26;
+}
+QCheckBox::indicator:checked
+{
+    border-image:url(:/Resources/LoginWindow/checkbox.png) 0 0 0 39;
+}
+
+/*多账号登录*/
+QPushButton#moreAccountLogin
+{
+    border-image:url(:/Resources/LoginWindow/more_accountlogin.png) 1 47 1 1;    /*由于图片保存问题图片大了两个像素*/
+}
+
+QPushButton#moreAccountLogin:hover
+{
+    border-image:url(:/Resources/LoginWindow/more_accountlogin.png) 1 24 1 24;
+}
+
+QPushButton#moreAccountLogin:pressed
+{
+    border-image:url(:/Resources/LoginWindow/more_accountlogin.png) 1 1 1 47;
+}
+
+/*二维码*/
+QPushButton#pButtongFlicker
+{
+    border-image:url(:/Resources/LoginWindow/flicker.png) 0 44 0 0;
+}
+
+QPushButton#pButtongFlicker:hover
+{
+    border-image:url(:/Resources/LoginWindow/flicker.png) 0 22 0 22;
+}
+
+QPushButton#pButtongFlicker:pressed
+{
+    border-image:url(:/Resources/LoginWindow/flicker.png) 0 0 0 44;
+}
+
+/*登陆按钮*/
+QPushButton#loginButton
+{
+	color:white;
+	background-color:rgb(14 , 150 , 254);
+	border-radius:5px;
+}
+
+QPushButton#loginButton:hover
+{
+	color:white;
+	background-color:rgb(44 , 137 , 255);
+}
+
+QPushButton#loginButton:pressed
+{
+	color:white;
+	background-color:rgb(14 , 135 , 228);
+	padding-left:3px;
+	padding-top:3px;
+}
+
+/*登录状态*/
+QPushButton#loginState
+{
+	border-radius:3px;
+	background:transparent;
+}
+
+QPushButton#loginState:hover
+{
+	border: 1px solid rgb(150 , 150 , 150);
+}
+
+QPushButton#loginState:pressed
+{
+	padding-left:2px;
+	padding-top:2px;
+	border: 1px solid rgb(150 , 150 , 150);
+}
+
+

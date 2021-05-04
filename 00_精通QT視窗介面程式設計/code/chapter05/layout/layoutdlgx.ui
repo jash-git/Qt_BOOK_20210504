@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LayoutDlg</class>
+ <widget class="QDialog" name="LayoutDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>316</width>
+    <height>255</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>佈局管理器應用</string>
+  </property>
+  <property name="locale">
+   <locale language="Chinese" country="Taiwan"/>
+  </property>
+  <layout class="QGridLayout">
+   <item row="0" column="0">
+    <widget class="QPushButton" name="constraintPushBtn">
+     <property name="text">
+      <string>視窗尺寸約束</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QPushButton" name="showPushBtn">
+     <property name="text">
+      <string>編輯框顯示</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPushButton" name="lpolicyPushBtn">
+     <property name="text">
+      <string>左編輯框策略</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QPushButton" name="rpolicyPushBtn">
+     <property name="text">
+      <string>右編輯框策略</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="lstretchPushBtn">
+     <property name="text">
+      <string>左編輯框伸縮</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="rstretchPushBtn">
+     <property name="text">
+      <string>右編輯伸縮</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="2">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>示範</string>
+     </property>
+     <layout class="QHBoxLayout">
+      <item>
+       <widget class="QTextEdit" name="lTextEdit"/>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="rTextEdit"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

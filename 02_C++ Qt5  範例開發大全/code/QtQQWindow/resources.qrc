@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/LoginWindow/LoginWindow.css</file>
+        <file>Resources/LoginWindow/back.gif</file>
+        <file>Resources/MyTitle/close.png</file>
+        <file>Resources/MyTitle/max.png</file>
+        <file>Resources/MyTitle/min.png</file>
+        <file>Resources/MyTitle/restore.png</file>
+        <file>Resources/MyTitle.css</file>
+        <file>Resources/LoginWindow/drop_down_Button.png</file>
+        <file>Resources/LoginWindow/checkbox.png</file>
+        <file>Resources/LoginWindow/HeadImage.png</file>
+        <file>Resources/LoginWindow/more_accountlogin.png</file>
+        <file>Resources/LoginWindow/flicker.png</file>
+        <file>Resources/LoginWindow/arrowback.png</file>
+        <file>Resources/LoginWindow/LoginState/state_away.png</file>
+        <file>Resources/LoginWindow/LoginState/state_busy.png</file>
+        <file>Resources/LoginWindow/LoginState/state_hide.png</file>
+        <file>Resources/LoginWindow/LoginState/state_notdisturb.png</file>
+        <file>Resources/LoginWindow/LoginState/state_online.png</file>
+        <file>Resources/LoginWindow/LoginState/state_Qme.png</file>
+        <file>Resources/LoginWindow/keyboard.png</file>
+    </qresource>
+</RCC>

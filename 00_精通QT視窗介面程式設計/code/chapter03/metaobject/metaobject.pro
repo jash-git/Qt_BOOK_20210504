@@ -1,0 +1,3 @@
+
+SOURCES += \
+    metaobject.cpp

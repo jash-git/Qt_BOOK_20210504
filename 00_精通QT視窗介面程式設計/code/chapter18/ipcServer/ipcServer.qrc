@@ -1,0 +1,6 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>files/monkey_on.png</file>
+    <file>files/monkey_off.png</file>
+</qresource>
+</RCC>

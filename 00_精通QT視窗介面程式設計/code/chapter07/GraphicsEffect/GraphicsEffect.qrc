@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/effect">
+        <file>aircraft.png</file>
+        <file>gfs.jpg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/composition">
+        <file>build.jpg</file>
+    </qresource>
+</RCC>

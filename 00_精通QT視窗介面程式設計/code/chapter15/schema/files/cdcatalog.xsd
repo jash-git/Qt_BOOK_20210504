@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <xsd:element name="catalog">
+        <xsd:complexType>
+        	 <xsd:sequence>
+							<xsd:element name="cd" type="cdType" maxOccurs="unbounded"/>
+         	</xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:complexType name="cdType">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+            <xsd:element name="artist" type="xsd:string"/>
+            <xsd:element name="country" type="xsd:string"/>
+            <xsd:element name="company" type="xsd:string"/>
+            <xsd:element name="price" type="xsd:decimal"/>
+            <xsd:element name="year" type="xsd:date" minOccurs="0"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+</xsd:schema>
